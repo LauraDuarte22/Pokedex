@@ -1,0 +1,45 @@
+{
+  "name": "javascript-asincrono",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "test",
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMagos/javascript-asincrono.git"
+  },
+  "author": "Juan Magos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanMagos/javascript-asincrono/issues"
+  },
+  "homepage": "https://github.com/JuanMagos/javascript-asincrono#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "css-loader": "^6.7.1",
+    "express": "^4.17.3",
+    "html-webpack-plugin": "^5.5.0",
+    "htmlhint": "^1.0.0",
+    "regenerator-runtime": "^0.13.1",
+    "serve": "^14.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-middleware": "^5.3.1",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "chart.js": "^4.3.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3"
+  }
+}
